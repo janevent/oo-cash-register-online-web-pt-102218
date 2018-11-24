@@ -17,6 +17,7 @@ class CashRegister
     @total = @total + p
     quantity.times do
       @items << title
+      @last_transaction = p
     end
   end
   
