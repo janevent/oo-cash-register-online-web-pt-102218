@@ -11,7 +11,7 @@ class CashRegister
     @last_transaction
     
   def total 
-    @total
+    @total_to_i
   end
   
   def add_item(title, price, quantity = 1)
