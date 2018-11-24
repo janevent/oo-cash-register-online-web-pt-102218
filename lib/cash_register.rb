@@ -25,7 +25,7 @@ class CashRegister
   end
   
   def discount 
-    self.employee_discount 
+    @employee_discount 
   end
   
   def apply_discount
