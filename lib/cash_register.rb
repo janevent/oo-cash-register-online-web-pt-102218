@@ -7,7 +7,7 @@ class CashRegister
     @employee_discount = employee_discount
     @items = []
   end
-  
+    @last_transaction
   def total 
     @total
   end
